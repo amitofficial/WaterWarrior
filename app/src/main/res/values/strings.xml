@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">water warrior</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_dumping_waste">dumping_waste</string>
+    <string name="title_activity_dumpingsuccess">DUMPINGSUCCESS</string>
+    <string name="title_activity_dumpingsucces">DUMPINGSUCCES</string>
+    <string name="title_activity_dumpingsucce">DUMPINGSUCCE</string>
+    <string name="title_activity_problem__status">PROBLEM_STATUS</string>
+</resources>

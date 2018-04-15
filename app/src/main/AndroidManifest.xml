@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jagjeet.waterwarrior">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cover">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".encroachmenttrack" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dumping_waste"
+            android:label="@string/title_activity_dumping_waste"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DUMPINGSUCCESS"
+            android:label="@string/title_activity_dumpingsuccess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DUMPINGSUCCES"
+            android:label="@string/title_activity_dumpingsucces"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DUMPINGSUCCE"
+            android:label="@string/title_activity_dumpingsucce"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PROBLEM_STATUS"
+            android:label="@string/title_activity_problem__status"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
